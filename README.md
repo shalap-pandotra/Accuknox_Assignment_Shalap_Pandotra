@@ -4,7 +4,7 @@
 Cloud security tools generate a high volume of alerts across multiple cloud accounts and services. Security engineers need a way to quickly understand which alerts matter most, investigate their impact, and track resolution without being overwhelmed by noise or forced into complex remediation flows.
 The challenge is not only detecting issues, but enabling effective triage, investigation, collaboration, and resolution tracking in a way that reflects real-world security workflows.
 
-Figma Document: https://www.figma.com/design/mZQcco5dVowuMXU7ue8NhW/Accuknox-assignment---Shalap-Pandotra?node-id=17-2&t=fJDDGi6Tt5Xun16p-1
+[Figma Document](https://www.figma.com/design/mZQcco5dVowuMXU7ue8NhW/Accuknox-assignment---Shalap-Pandotra?node-id=17-2&t=fJDDGi6Tt5Xun16p-1)
 
 ## User Persona
 ### Primary user: Cloud / Security Engineer
@@ -41,12 +41,12 @@ Key features:
 Grouping alerts by day reflects how engineers typically process alerts in time-based batches, while severity indicators ensure that critical issues are not buried. Resolution is treated as a reversible state, allowing alerts to be reopened if remediation is incomplete or incorrect.
 
 ## Designs:
-* Zero State: https://www.figma.com/design/mZQcco5dVowuMXU7ue8NhW/Accuknox-assignment---Shalap-Pandotra?node-id=18-162&t=fJDDGi6Tt5Xun16p-4
-* Triage view: https://www.figma.com/design/mZQcco5dVowuMXU7ue8NhW/Accuknox-assignment---Shalap-Pandotra?node-id=18-4&t=fJDDGi6Tt5Xun16p-4
-* Hover tooltips: https://www.figma.com/design/mZQcco5dVowuMXU7ue8NhW/Accuknox-assignment---Shalap-Pandotra?node-id=8-75&t=fJDDGi6Tt5Xun16p-4
-* Resolved State: https://www.figma.com/design/mZQcco5dVowuMXU7ue8NhW/Accuknox-assignment---Shalap-Pandotra?node-id=14-2&t=fJDDGi6Tt5Xun16p-4
-* Sorting Options: https://www.figma.com/design/mZQcco5dVowuMXU7ue8NhW/Accuknox-assignment---Shalap-Pandotra?node-id=15-404&t=fJDDGi6Tt5Xun16p-4
-* Sorted State: https://www.figma.com/design/mZQcco5dVowuMXU7ue8NhW/Accuknox-assignment---Shalap-Pandotra?node-id=15-582&t=fJDDGi6Tt5Xun16p-4
+* [Zero State](https://www.figma.com/design/mZQcco5dVowuMXU7ue8NhW/Accuknox-assignment---Shalap-Pandotra?node-id=18-162&t=fJDDGi6Tt5Xun16p-4)
+* [Triage view](https://www.figma.com/design/mZQcco5dVowuMXU7ue8NhW/Accuknox-assignment---Shalap-Pandotra?node-id=18-4&t=fJDDGi6Tt5Xun16p-4)
+* [Hover tooltips](https://www.figma.com/design/mZQcco5dVowuMXU7ue8NhW/Accuknox-assignment---Shalap-Pandotra?node-id=8-75&t=fJDDGi6Tt5Xun16p-4)
+* [Resolved State](https://www.figma.com/design/mZQcco5dVowuMXU7ue8NhW/Accuknox-assignment---Shalap-Pandotra?node-id=14-2&t=fJDDGi6Tt5Xun16p-4)
+* [Sorting Options](https://www.figma.com/design/mZQcco5dVowuMXU7ue8NhW/Accuknox-assignment---Shalap-Pandotra?node-id=15-404&t=fJDDGi6Tt5Xun16p-4)
+* [Sorted State](https://www.figma.com/design/mZQcco5dVowuMXU7ue8NhW/Accuknox-assignment---Shalap-Pandotra?node-id=15-582&t=fJDDGi6Tt5Xun16p-4)
 
 ## Screen 2: Alert Details (Investigation & Resolution)
 The detail view provides all necessary context to investigate and close an alert.
@@ -62,8 +62,8 @@ Key features:
 This view focuses on understanding and coordination rather than direct remediation. By surfacing risk context and supporting team discussion, the design reflects real-world workflows where fixes are applied externally and verified before an alert is resolved.
 
 ## Designs:
-* Details View - unresolved: https://www.figma.com/design/mZQcco5dVowuMXU7ue8NhW/Accuknox-assignment---Shalap-Pandotra?node-id=20-436&t=fJDDGi6Tt5Xun16p-4
-* Details View - resolved: https://www.figma.com/design/mZQcco5dVowuMXU7ue8NhW/Accuknox-assignment---Shalap-Pandotra?node-id=24-39&t=fJDDGi6Tt5Xun16p-4
+* [Details View - unresolved](https://www.figma.com/design/mZQcco5dVowuMXU7ue8NhW/Accuknox-assignment---Shalap-Pandotra?node-id=20-436&t=fJDDGi6Tt5Xun16p-4)
+* [Details View - resolved](https://www.figma.com/design/mZQcco5dVowuMXU7ue8NhW/Accuknox-assignment---Shalap-Pandotra?node-id=24-39&t=fJDDGi6Tt5Xun16p-4)
 
 ## Success Metrics
 The effectiveness of this design could be measured by:
