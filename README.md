@@ -72,3 +72,5 @@ The effectiveness of this design could be measured by:
 * Reduction in unresolved critical alerts over time
 * Clarity of ownership and resolution accountability
 
+[Assignmen PDF](Accuknox Assignment - Shala)
+
