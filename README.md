@@ -4,7 +4,7 @@
 Cloud security tools generate a high volume of alerts across multiple cloud accounts and services. Security engineers need a way to quickly understand which alerts matter most, investigate their impact, and track resolution without being overwhelmed by noise or forced into complex remediation flows.
 The challenge is not only detecting issues, but enabling effective triage, investigation, collaboration, and resolution tracking in a way that reflects real-world security workflows.
 
-[Figma Document](https://www.figma.com/design/mZQcco5dVowuMXU7ue8NhW/Accuknox-assignment---Shalap-Pandotra?node-id=17-2&t=fJDDGi6Tt5Xun16p-1)
+[Figma Document]([https://www.figma.com/design/mZQcco5dVowuMXU7ue8NhW/Accuknox-assignment---Shalap-Pandotra?node-id=17-2&t=fJDDGi6Tt5Xun16p-1](https://www.figma.com/design/mZQcco5dVowuMXU7ue8NhW/Accuknox-assignment---Shalap-Pandotra?node-id=0-1&t=to5hPnqjFke9wmgy-1))
 
 ## User Persona
 ### Primary user: Cloud / Security Engineer
