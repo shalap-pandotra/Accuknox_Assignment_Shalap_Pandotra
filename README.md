@@ -40,6 +40,11 @@ Key features:
 ### Design rationale:
 Grouping alerts by day reflects how engineers typically process alerts in time-based batches, while severity indicators ensure that critical issues are not buried. Resolution is treated as a reversible state, allowing alerts to be reopened if remediation is incomplete or incorrect.
 
+## Alert Prioritization Logic:
+Alert priority is derived from a combination of severity, resource criticality, and exposure duration, rather than raw alert volume alone.
+Severity reflects the inherent risk of the issue (e.g., public access, unrestricted network exposure), while resource criticality accounts for whether the affected asset is production-facing, sensitive, or business-critical. Exposure duration acts as a modifier, ensuring that long-standing unresolved risks are surfaced even if their initial severity is lower.
+This approach ensures that alerts with the highest potential impact are surfaced first, while still allowing security engineers to quickly scan and batch lower-risk issues.
+
 ## Designs:
 * [Zero State](https://www.figma.com/design/mZQcco5dVowuMXU7ue8NhW/Accuknox-assignment---Shalap-Pandotra?node-id=18-162&t=fJDDGi6Tt5Xun16p-4)
 * [Triage view](https://www.figma.com/design/mZQcco5dVowuMXU7ue8NhW/Accuknox-assignment---Shalap-Pandotra?node-id=18-4&t=fJDDGi6Tt5Xun16p-4)
@@ -71,6 +76,14 @@ The effectiveness of this design could be measured by:
 * Percentage of alerts resolved vs reopened
 * Reduction in unresolved critical alerts over time
 * Clarity of ownership and resolution accountability
+
+## Development Action Items
+* Implement an alert state machine (open → resolved → reopened) with reversible actions
+* Maintain an immutable audit log for status changes, ownership, and resolution events
+* Support priority calculation based on severity, asset criticality, and exposure duration
+* Enable alert ownership assignment and reassignment
+* Provide a lightweight comment system with timestamps and user attribution
+* Expose sorting and filtering APIs to support scalable alert volumes
 
 [Assignment PDF](Accuknox_Assignment_Shalap_Pandotra.pdf)
 
