@@ -85,5 +85,5 @@ The effectiveness of this design could be measured by:
 * Provide a lightweight comment system with timestamps and user attribution
 * Expose sorting and filtering APIs to support scalable alert volumes
 
-[Assignment PDF](Accuknox_Assignment_Shalap_Pandotra.pdf)
+[Assignment PDF]()
 
